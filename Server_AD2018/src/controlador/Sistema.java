@@ -1,5 +1,9 @@
 package controlador;
 
+import java.util.List;
+
+import negocio.Administracion;
+
 public class Sistema {
 	
 	private static Sistema instancia;
