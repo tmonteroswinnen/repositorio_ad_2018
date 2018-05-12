@@ -32,11 +32,11 @@ public class Administracion {
 	}
 	
 	public boolean validarPedidoCliente(Cliente cliente, Pedido pedido) {
-		
+		return true;
 	}
 	
 	public List<Pedido> consutarPedidoCliente(Cliente cliente){
-		
+		return null;
 	}
 
 }
