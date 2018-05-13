@@ -3,7 +3,7 @@ package negocio;
 public class CuentaCorriente {
 	
 	private float saldo;
-	private String estado;
+	private EstadoCuentaCorriente estado;
 	private String motivo;
 
 	public String verificarEstado() {
@@ -30,11 +30,11 @@ public class CuentaCorriente {
 		this.saldo = saldo;
 	}
 
-	public String getEstado() {
+	public EstadoCuentaCorriente getEstado() {
 		return estado;
 	}
 
-	public void setEstado(String estado) {
+	public void setEstado(EstadoCuentaCorriente estado) {
 		this.estado = estado;
 	}
 

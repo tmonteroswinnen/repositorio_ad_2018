@@ -1,13 +1,13 @@
 package negocio;
 
-public class ItemFactura {
-	
+public class ItemRemito {
+
 	private Articulo articulo;
-	private int cantidad;
-	private float precioUnitario;
 	
-	public float subTotal() {
-		return this.precioUnitario*this.cantidad;
+	private int cantidad;
+	
+	public float subTotal(){
+		return 0;
 	}
 
 	public Articulo getArticulo() {
@@ -25,12 +25,4 @@ public class ItemFactura {
 	public void setCantidad(int cantidad) {
 		this.cantidad = cantidad;
 	}
-
-	public float getPrecioUnitario() {
-		return precioUnitario;
-	}
-
-	public void setPrecioUnitario(float precioUnitario) {
-		this.precioUnitario = precioUnitario;
-	}	
 }
