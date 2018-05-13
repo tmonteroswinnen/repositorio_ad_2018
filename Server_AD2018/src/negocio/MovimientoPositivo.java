@@ -1,5 +1,5 @@
-package entities;
+package negocio;
 
 public class MovimientoPositivo {
-
+	
 }

@@ -39,4 +39,19 @@ public class Administracion {
 		return null;
 	}
 
+	public List<Cliente> getClientes() {
+		return clientes;
+	}
+
+	public void setClientes(List<Cliente> clientes) {
+		this.clientes = clientes;
+	}
+
+	public List<Pedido> getPedidos() {
+		return pedidos;
+	}
+
+	public void setPedidos(List<Pedido> pedidos) {
+		this.pedidos = pedidos;
+	}
 }

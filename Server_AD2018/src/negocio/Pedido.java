@@ -5,10 +5,6 @@ import java.util.List;
 
 public class Pedido {
 	
-	public enum EstadoPedido{
-		pendiente, deposito, despachado, entregado, rechazado, aprobado, pendienteAprobacion;
-	}
-	
 	private int idPedido;
 	private Cliente cliente;
 	private Date fechaGeneracion;
@@ -20,9 +16,8 @@ public class Pedido {
 	private String direccionEnvio;
 	private String aclaracion;
 	
-	
 	public float calcularTotal() {
-		
+		return 0;
 	}
 	
 	public void nuevoItemPedido(Articulo articulo, int cantidad) {
@@ -34,9 +29,86 @@ public class Pedido {
 	}
 	
 	public boolean chequearStock() {
-		
+		return true;
 	}
-	
-	
 
+	public int getIdPedido() {
+		return idPedido;
+	}
+
+	public void setIdPedido(int idPedido) {
+		this.idPedido = idPedido;
+	}
+
+	public Cliente getCliente() {
+		return cliente;
+	}
+
+	public void setCliente(Cliente cliente) {
+		this.cliente = cliente;
+	}
+
+	public Date getFechaGeneracion() {
+		return fechaGeneracion;
+	}
+
+	public void setFechaGeneracion(Date fechaGeneracion) {
+		this.fechaGeneracion = fechaGeneracion;
+	}
+
+	public Date getFechaDespacho() {
+		return fechaDespacho;
+	}
+
+	public void setFechaDespacho(Date fechaDespacho) {
+		this.fechaDespacho = fechaDespacho;
+	}
+
+	public Date getFechaEntrega() {
+		return fechaEntrega;
+	}
+
+	public void setFechaEntrega(Date fechaEntrega) {
+		this.fechaEntrega = fechaEntrega;
+	}
+
+	public List<ItemPedido> getItemsPedido() {
+		return itemsPedido;
+	}
+
+	public void setItemsPedido(List<ItemPedido> itemsPedido) {
+		this.itemsPedido = itemsPedido;
+	}
+
+	public float getTotalBruto() {
+		return totalBruto;
+	}
+
+	public void setTotalBruto(float totalBruto) {
+		this.totalBruto = totalBruto;
+	}
+
+	public EstadoPedido getEstadoPedido() {
+		return estadoPedido;
+	}
+
+	public void setEstadoPedido(EstadoPedido estadoPedido) {
+		this.estadoPedido = estadoPedido;
+	}
+
+	public String getDireccionEnvio() {
+		return direccionEnvio;
+	}
+
+	public void setDireccionEnvio(String direccionEnvio) {
+		this.direccionEnvio = direccionEnvio;
+	}
+
+	public String getAclaracion() {
+		return aclaracion;
+	}
+
+	public void setAclaracion(String aclaracion) {
+		this.aclaracion = aclaracion;
+	}
 }

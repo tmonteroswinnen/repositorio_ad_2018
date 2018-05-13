@@ -1,4 +1,4 @@
-package entities;
+package negocio;
 
 import java.util.Date;
 
