@@ -1,6 +1,6 @@
 package entities;
 
-public class Articulo {
+public class ArticuloEntity {
 	
 	private int idArticulo;
 	
@@ -14,7 +14,7 @@ public class Articulo {
 	
 	private String tamanio;
 	
-	private Lote lote;
+	private LoteEntity lote;
 	
 	private MovimientoStock movimientos;
 	
@@ -74,11 +74,11 @@ public class Articulo {
 		this.tamanio = tamanio;
 	}
 
-	public Lote getLote() {
+	public LoteEntity getLote() {
 		return lote;
 	}
 
-	public void setLote(Lote lote) {
+	public void setLote(LoteEntity lote) {
 		this.lote = lote;
 	}
 

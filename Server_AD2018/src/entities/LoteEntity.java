@@ -1,6 +1,6 @@
 package entities;
 
-public class Lote {
+public class LoteEntity {
 
 	
 }

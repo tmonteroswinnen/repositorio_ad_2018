@@ -1,6 +1,6 @@
 package entities;
 
-public class Pedido {
+public class PedidoEntity {
 
 	private int idPedido;
 	

@@ -1,6 +1,6 @@
 package entities;
 
-public class Cliente {
+public class ClienteEntity {
 test tomas
 //test Martín Larzábal
 }
